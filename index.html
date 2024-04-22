@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EcoShirt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">EcoShirt</td>
+                <td id="navigation">
+                    <a href="#bio">про нас</a>
+                    <a href="#contact">контакты</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>Мы - бренд с тематическими надписями в зависимости с вашим факультетом</h1>
+                <a href="https://wa.me/+77761581010" target="_blank">
+                    <button class="btn_one">Сделай заказ</button><br>
+                </a>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay: 2.6s;">
+                            <a class="social" href="https://www.instagram.com/the_eco_shirt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+
+    <div id="bio">
+        <h1>про нас</h1>
+        <p>
+            Все очень просто! Мы - EcoShirt, изготавливаем наклейки на вашу одежду, которая казалось бы годится только для мытья полов. </p>
+        <p>
+            Наши наклейки не только дадут вашей футболке или толстовке вторую жизнь, но и приблизит вас со своей профессией. </p>
+        <p>Вместо того, чтобы продавать сами футболки с готовыми принтами, мы решили создавать сами наклейки на тканевые изделия, чтобы люди по своему желанию могли прикрепить наклейку </p>
+        <h1>как приедет моя посылка?</h1>
+        <p>В эко картонном почтовом конверте внутри:</p>
+                <p>Наклейка для вашего изделия</p>
+                <p>Отрезок кальки</p>
+                <p>Инструкция по использованию</p>
+        <h1>как наклеить наклейку?</h1>
+                <p>1. Прогреть утюг до высокой температуры (желательно 150-160 градусов)</p>
+                <p>2. Убедитесь, что утюг на сухом режиме</p>
+                <p>3. Положите равномерно ткань на гладкую поверхность, чтобы принт равномерно отпечатался</p>
+                <p>4. Прижмите утюг и ждите 10 секунд и так до конца пока не будете уверены, что покрыли весь принт</p>
+                <p>5. Ни в коем случае не гладьте принт, только слегка прижмите и ждите!</p>
+                <p>6. Снимите наклейку исключительно только после остывания</p>
+                <p>7. Желательно второй раз прижать калькой, которая находится внутри конверта, так же 10 секунд, чтобы принт служил вам долго</p>
+
+    </div>
+    <div id="contact">
+        <h1>контакты</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp; +7 776 158 10 10</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                    <div id="address">
+                                        Розыбакиева 227,<br>
+                                        Almaty city,<br>
+                                        Kazakhstan
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="social"><i class="fab fa-instagram"></i></a>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form>
+                            <a href="https://wa.me/+77761581010" target="_blank">
+                                <button class="btn_one">whatsapp</button>
+                            </a>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
